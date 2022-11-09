@@ -4,17 +4,17 @@ from tkinter import *
 # You can use math.floor(height_converted) if you want an integer
 # Do not forget! The library is already imported!
 
-#TODO: Import Tkinter and make a GUI
+#TODO: initialize Tkinter and make a GUI
 
 print("*****************************************************************")
 print("*********************** HEIGHT CONVERTER ************************")
 print("**** Convert your centimeters to inches, yards, meters, feet ****")
 print("*****************************************************************")
 
-root = Tk()
-frame = Frame(root)
+# root = Tk()
+# frame = Frame(root)
 
-root.title("Centimeter Converter")
+# root.title("Centimeter Converter")
 
 welcome_text = Label(root, text ='Welcome!', font = "50")
 print("Hi! Thank you for trying this height converter")
@@ -43,4 +43,4 @@ elif height_converter == "yards":
 else:
     print(f"Your input is invalid")
 
-root.mainloop()
+# root.mainloop()
